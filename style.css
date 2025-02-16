@@ -30,7 +30,8 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    width: 150px; /* Sesuaikan ukuran, misalnya 150px */
+    height: auto; /* Agar proporsinya tetap bagus */
 }
 
 .nav-links {
