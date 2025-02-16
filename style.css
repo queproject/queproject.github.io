@@ -66,3 +66,37 @@ nav {
 .cta-button:hover {
     background-color: #e68900;
 }
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo Footer */
+.footer-logo {
+    width: 120px; /* Sesuaikan ukuran logo */
+    margin-bottom: 10px;
+}
+
+/* Informasi Kontak */
+.contact-info {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Copyright */
+.license {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
