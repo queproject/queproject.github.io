@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Saya</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            font-size: 18px;
-        }
-    </style>
+    <title>Que Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Selamat Datang di Website Saya!</h1>
-    <p>Ini adalah website pertama saya yang di-host di GitHub Pages.</p>
+    <header>
+        <nav>
+            <div class="logo">Que Project</div>
+            <ul class="nav-links">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Que Project</h1>
+            <p>Solusi terbaik untuk desain dan pembuatan website profesional.</p>
+            <a href="#" class="cta-button">Mulai Sekarang</a>
+        </div>
+    </section>
+    
+    <script>
+        $(document).ready(function() {
+            $(".cta-button").hover(function() {
+                $(this).css("background-color", "#ff9800");
+            }, function() {
+                $(this).css("background-color", "#ffa726");
+            });
+        });
+    </script>
 </body>
 </html>
