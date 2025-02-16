@@ -84,6 +84,42 @@ nav {
     color: white;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.logo-img {
+    height: 50px; /* Sesuaikan ukuran logo */
+    width: auto;
+    margin-left: 20px; /* Geser logo ke kiri */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px; /* Geser menu ke kanan */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ff9800;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
 /* Hero Section */
 .hero {
     background-color: #ffa726;
